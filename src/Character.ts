@@ -29,6 +29,79 @@ class Character implements Fighter {
       amount: getRandomInt(1, 10),
     };
   }
+
+  public get race() : Race {
+    return this._race;
+  }
+
+  public get archetype() : Archetype {
+    return this._archtype;
+  }
+
+  public get lifePoints() : number {
+    return this._lifePoints;
+  }
+
+  public get strength() : number {
+    return this._strength;
+  }
+
+  public get defense() : number {
+    return this._defense;
+  }
+
+  public get dexterity() : number {
+    return this._dexterity;
+  }
+
+  public get energy(): Energy {
+    return { ...this._energy };
+  }
+
+  receiveDamage(attackPoints: number): number {
+    const receiveAtk = attackPoints - this._defense;
+    if (receiveAtk > 0) {
+      const lifeAfterReceiveAtk = this._lifePoints - receiveAtk;
+      if (lifeAfterReceiveAtk < 0) {
+        this._lifePoints = -1;
+      } else {
+        this._lifePoints = lifeAfterReceiveAtk;
+      }      
+    }
+    return this._lifePoints;
+  }
+
+  attack(enemy: Fighter): void {
+    enemy.receiveDamage(this._strength);
+  }
+  
+  levelUp(): void {
+    const currentyStrength = this._strength;
+    const currentyDexterity = this._dexterity;
+    const currentyDefense = this._defense;
+    this._maxLifePoints = this.maxLifeDistribution();
+    this._lifePoints = this._maxLifePoints;
+    this._strength = currentyStrength + getRandomInt(1, 10);
+    this._dexterity = currentyDexterity + getRandomInt(1, 10);
+    this._defense = currentyDefense + getRandomInt(1, 10);
+    this._energy.amount = 10;
+  }
+
+  maxLifeDistribution() {
+    const lifeThreshold = this._race.maxLifePoints;
+    const currentyMaxLife = this._maxLifePoints;
+    const newMaxLife = currentyMaxLife + getRandomInt(1, 10);
+    if (newMaxLife >= lifeThreshold) return lifeThreshold;
+    return newMaxLife;
+  }
+
+  special(enemy: Fighter): void {
+    console.log(
+      `${this._name}: Vem k inimigu ki te \
+      enchu de porradaaaaaaaa ${this._strength}!!
+      :punch: :raised_hands:${enemy.defense}`,
+    );
+  }
 }
 
 export default Character;
