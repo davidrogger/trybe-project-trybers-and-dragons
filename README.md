@@ -2,7 +2,13 @@
 
 ## Seção: `Introdução à Orientação a Objetos (POO) e SOLID`
 
-- lore
+- Apresentando um paradigma que é a base para inúmeras arquiteturas, POO, Programação orientada a objetos, onde foi mostrado como implementar usando o typescript, por meio de classes, detalhando seus pilares, abstração, encapsulamento, herança e poliformismo.
+- Seguindo com a introdução aos princípios SOLID:
+- `S`ingle Responsability
+- `O`pen/Closed
+- `L`iskov Substitution
+- `I`nterface segregation
+- `D`ependency Inversion
 #
 <div align="center">
   <a href="#">
@@ -16,7 +22,7 @@
 #
 ## Projeto: `Trybers and Dragons`
 
-- lore
+- Atividade para por em prática a criação de classes usando o paradigma de orientação a objeto seguindo alguns princípios SOLID, de um jogo de fantasia, onde existem raças, arquetipos, personagens, monstros com caracteristicas exclusivas e compartilhadas, e combate baseado em PVE e PVP.
 
 # Tecnologias e ferramentas usadas 🛠
 
@@ -26,11 +32,14 @@
 
 # Desafios
 
-- lore
+- Criar classes usando dos pilares de POO.
+- Criar interfaces
+- Implementar em Typescript, classes, Instâncias, atributos, métodos e objetos.
+- Aplicar princípios SOLID.
 
 # Conclusão
 
-- lore
+- Por ter um certo amor por jogos, a implementação da trybe foi muito emocionante durante todo desenvolvimento do readme deles, com toda uma Lore, criando uma atmosfera de jogo, onde eu ia criando cada personagem/npc como se fosse um jogo, foi muito divertido, a criação e implementação de cada funcionalidade de objeto com suas caracteristicas. Maior dificuldade inicial era entender a sintaxe e usabilidade das classes mais a tipagem do typescript também com relação ao POO, ja SOLID, é algo que eu preciso praticar mais no dia-a-dia, para consolidar melhor.
 
 </details>
 
