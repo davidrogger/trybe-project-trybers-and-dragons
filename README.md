@@ -37,7 +37,7 @@
 # Desafios
 
 - Criar classes usando dos pilares de POO.
-- Criar interfaces
+- Criar interfaces.
 - Implementar em Typescript, classes, Instâncias, atributos, métodos e objetos.
 - Aplicar princípios SOLID.
 
