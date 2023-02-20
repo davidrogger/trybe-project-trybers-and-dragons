@@ -39,7 +39,11 @@
 
 # Conclusão
 
-- Por ter um certo amor por jogos, a implementação da trybe foi muito emocionante durante todo desenvolvimento do readme deles, com toda uma Lore, criando uma atmosfera de jogo, onde eu ia criando cada personagem/npc como se fosse um jogo, foi muito divertido, a criação e implementação de cada funcionalidade de objeto com suas caracteristicas. Maior dificuldade inicial era entender a sintaxe e usabilidade das classes mais a tipagem do typescript também com relação ao POO, ja SOLID, é algo que eu preciso praticar mais no dia-a-dia, para consolidar melhor.
+- POO tem o objetivo de aproximar o mundo digital ao mundo real, inicialmente a mescla e confusão entre o pilar de abstração e encapsulamento é muito grande, conforme fui criando cada modelo do projeto foi fixando mais os pilares trabalhando na classe abstrata:
+1. Abstração: Definindo os aspectos relevantes do objeto criado, no caso da raça, onde é criada uma classe abstrada, onde toda raça vai ter um nome, dexterity, maxLifePoints e createdRacesInstance.
+2. Encapsulamento: Onde cada objeto tem seu nome, dexterity ou vida máxima, que são privados e determinados ao criarmos a raça com seu nome, deixando escondido e não sendo possivel altera-los, se não for usando metodos determinados que vão altera-los, protegendo o conteudo que desejamos, evitando alterações indesejadas e uso inadequados.
+3. Herança: Onde cada raça herdou sua caracteriscas basicas, pois toda raça teriam aquela base de atributos e metodos mais suas pecularidades invididuais, todas raças tem os atributos name, dexterity, maxLifePoints e o metodo createdRacesInstances.
+4. Poliformismo: Tendo os mesmo métodos, mas com funcionalidades diferentes toda raça tem seu contador individual de raças, com o createdRacesInstance, onde a classe realiza uma contagem, de quantas raças de anão foram criadas ou de elfos, quando formos verificar, cada um tem sua contagem de forma individual.
 
 </details>
 
