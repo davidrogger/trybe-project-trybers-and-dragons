@@ -44,6 +44,7 @@
 2. Encapsulamento: Onde cada objeto tem seu nome, dexterity ou vida máxima, que são privados e determinados ao criarmos a raça com seu nome, deixando escondido e não sendo possivel altera-los, se não for usando metodos determinados que vão altera-los, protegendo o conteudo que desejamos, evitando alterações indesejadas e uso inadequados.
 3. Herança: Onde cada raça herdou sua caracteriscas basicas, pois toda raça teriam aquela base de atributos e metodos mais suas pecularidades invididuais, todas raças tem os atributos name, dexterity, maxLifePoints e o metodo createdRacesInstances.
 4. Poliformismo: Tendo os mesmo métodos, mas com funcionalidades diferentes toda raça tem seu contador individual de raças, com o createdRacesInstance, onde a classe realiza uma contagem, de quantas raças de anão foram criadas ou de elfos, quando formos verificar, cada um tem sua contagem de forma individual.
+- SOLID, todo desenvolvimento abordei onde possivel de forma mesclada, o uso de responsábilidade unica, deixando as funcionalidades abertas para extensões, o uso de subtipos de liskov foi bem usado na parte de raças e arquetipos, segregação de interfaces e inversão de dependências, mas tenho que dizer que essa parte de principios é algo que preciso praticar mais, e ler mais conteudo para ter uma visibilidade maior do seu uso.
 
 </details>
 
