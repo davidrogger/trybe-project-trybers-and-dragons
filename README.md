@@ -11,14 +11,18 @@
 - `D`ependency Inversion
 #
 <div align="center">
-  <a href="#">
+  <a href="https://realpython.com/python3-object-oriented-programming/">
     <img width="30%" src="./readme-imgs/project_top.webp">
+  </a>
+  <a href="https://realpython.com/courses/getters-and-setters-python/">
     <img width="30%" src="./readme-imgs/project_mid.webp">
+  </a>
+  <a href="https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898">
     <img width="30%" src="./readme-imgs/project_bot.webp">
   </a>
 </div>
 
->*lore*
+>*Acesse Fonte das imagens clicando nas imagens*
 #
 ## Projeto: `Trybers and Dragons`
 
