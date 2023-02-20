@@ -2,7 +2,7 @@
 
 ## Seção: `Introdução à Orientação a Objetos (POO) e SOLID`
 
-- Apresentando um paradigma que é a base para inúmeras arquiteturas, POO, Programação orientada a objetos, onde foi mostrado como implementar usando o typescript, por meio de classes, detalhando seus pilares, abstração, encapsulamento, herança e poliformismo.
+- Apresentando um paradigma que é a base para inúmeras arquiteturas, POO, Programação orientada a objetos, onde foi mostrado como implementar usando o typescript, por meio de classes, detalhando seus pilares, abstração, encapsulamento, herança e polimorfismo.
 - Seguindo com a introdução aos princípios SOLID:
 - `S`ingle Responsability
 - `O`pen/Closed
@@ -26,7 +26,7 @@
 #
 ## Projeto: `Trybers and Dragons`
 
-- Atividade para por em prática a criação de classes usando o paradigma de orientação a objeto seguindo alguns princípios SOLID, de um jogo de fantasia, onde existem raças, arquetipos, personagens, monstros com caracteristicas exclusivas e compartilhadas, e combate baseado em PVE e PVP.
+- Atividade para pôr em prática a criação de classes usando o paradigma de orientação a objeto seguindo alguns princípios SOLID, de um jogo de fantasia, onde existem raças, arquétipos, personagens, monstros com características exclusivas e compartilhadas, e combate baseado em PVE e PVP.
 
 # Tecnologias e ferramentas usadas 🛠
 
@@ -44,11 +44,11 @@
 # Conclusão
 
 - POO tem o objetivo de aproximar o mundo digital ao mundo real, inicialmente a mescla e confusão entre o pilar de abstração e encapsulamento é muito grande, conforme fui criando cada modelo do projeto foi fixando mais os pilares trabalhando na classe abstrata:
-1. Abstração: Definindo os aspectos relevantes do objeto criado, no caso da raça, onde é criada uma classe abstrada, onde toda raça vai ter um nome, dexterity, maxLifePoints e createdRacesInstance.
-2. Encapsulamento: Onde cada objeto tem seu nome, dexterity ou vida máxima, que são privados e determinados ao criarmos a raça com seu nome, deixando escondido e não sendo possivel altera-los, se não for usando metodos determinados que vão altera-los, protegendo o conteudo que desejamos, evitando alterações indesejadas e uso inadequados.
-3. Herança: Onde cada raça herdou sua caracteriscas basicas, pois toda raça teriam aquela base de atributos e metodos mais suas pecularidades invididuais, todas raças tem os atributos name, dexterity, maxLifePoints e o metodo createdRacesInstances.
-4. Poliformismo: Tendo os mesmo métodos, mas com funcionalidades diferentes toda raça tem seu contador individual de raças, com o createdRacesInstance, onde a classe realiza uma contagem, de quantas raças de anão foram criadas ou de elfos, quando formos verificar, cada um tem sua contagem de forma individual.
-- SOLID, todo desenvolvimento abordei onde possivel de forma mesclada, o uso de responsábilidade unica, deixando as funcionalidades abertas para extensões, o uso de subtipos de liskov foi bem usado na parte de raças e arquetipos, segregação de interfaces e inversão de dependências, mas tenho que dizer que essa parte de principios é algo que preciso praticar mais, e ler mais conteudo para ter uma visibilidade maior do seu uso.
+1. Abstração: Definindo os aspectos relevantes do objeto criado, no caso da raça, onde é criada uma classe abstraída, onde toda raça vai ter um nome, dexterity, maxLifePoints e createdRacesInstance.
+2. Encapsulamento: Onde cada objeto tem seu nome, dexterity ou vida máxima, privados e determinados ao criarmos a raça com seu nome, deixando escondido e não sendo possível alterá-los, se não for usando métodos determinados que vão alterá-los, protegendo o conteúdo que desejamos, evitando alterações indesejadas e uso inadequados.
+3. Herança: Onde cada raça herdou sua característica básicas, pois toda raça teriam aquela base de atributos e métodos mais suas peculiaridades individuais, toda raça tem os atributos name, dexterity, maxLifePoints e o metodo createdRacesInstances.
+4. Polimorfismo: Tendo os mesmo métodos, mas com funcionalidades diferentes, toda raça tem seu contador individual de raças, com o createdRacesInstance, onde a classe realiza uma contagem, de quantas raças de anão foram criadas ou de elfos, quando formos verificar, cada um tem sua contagem de forma individual.
+- SOLID, todo desenvolvimento abordei onde possível de forma mesclada, o uso de responsabilidade única, deixando as funcionalidades abertas para extensões, o uso de subtipos de Liskov foi bem usado na parte de raças e arquétipos, segregação de interfaces e inversão de dependências, mas tenho que dizer que essa parte de princípios é algo que preciso praticar mais, e ler mais conteúdo para ter uma visibilidade maior do seu uso.
 
 </details>
 
