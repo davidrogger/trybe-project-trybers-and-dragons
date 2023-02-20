@@ -22,7 +22,7 @@
   </a>
 </div>
 
->*Acesse Fonte das imagens clicando nas imagens*
+>*Imagens ilutrstativas acesse Fonte clicando na imagem*
 #
 ## Projeto: `Trybers and Dragons`
 
