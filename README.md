@@ -14,10 +14,10 @@
   <a href="https://realpython.com/python3-object-oriented-programming/">
     <img width="30%" src="./readme-imgs/project_top.webp">
   </a>
-  <a href="https://realpython.com/courses/getters-and-setters-python/">
+  <a href="https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898">
     <img width="30%" src="./readme-imgs/project_mid.webp">
   </a>
-  <a href="https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898">
+  <a href="https://realpython.com/courses/getters-and-setters-python/">
     <img width="30%" src="./readme-imgs/project_bot.webp">
   </a>
 </div>
